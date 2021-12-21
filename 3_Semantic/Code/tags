@@ -1,0 +1,787 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSIGN	y.tab.c	/^    ASSIGN = 266,$/;"	e	enum:yytokentype	file:
+ASSIGN	y.tab.c	156;"	d	file:
+ASSIGN	y.tab.h	/^    ASSIGN = 266,$/;"	e	enum:yytokentype
+ASSIGN	y.tab.h	88;"	d
+AssignK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+AssignK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon12
+BEGIN	lex.yy.c	117;"	d	file:
+BUFLEN	scan.c	22;"	d	file:
+Boolean	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon14
+BucketList	symtab.h	/^   } * BucketList;$/;"	t	typeref:struct:BucketListRec
+BucketListRec	symtab.h	/^typedef struct BucketListRec$/;"	s
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -W -Wall -g$/;"	m
+COMMA	y.tab.c	/^    COMMA = 278,$/;"	e	enum:yytokentype	file:
+COMMA	y.tab.c	168;"	d	file:
+COMMA	y.tab.h	/^    COMMA = 278,$/;"	e	enum:yytokentype
+COMMA	y.tab.h	100;"	d
+CallK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+CompK	globals.h	/^typedef enum {CompK,SelK,IterK,ReturnK} StmtKind;$/;"	e	enum:__anon6
+ConstK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+ConstK	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon13
+DADDR_SIZE	tm.c	22;"	d	file:
+DONE	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+ECHO	lex.yy.c	588;"	d	file:
+ELSE	y.tab.c	/^    ELSE = 259,$/;"	e	enum:yytokentype	file:
+ELSE	y.tab.c	149;"	d	file:
+ELSE	y.tab.h	/^    ELSE = 259,$/;"	e	enum:yytokentype
+ELSE	y.tab.h	81;"	d
+ENDFILE	globals.h	35;"	d
+ENDFILE	yacc/globals.h	35;"	d
+EOB_ACT_CONTINUE_SCAN	lex.yy.c	161;"	d	file:
+EOB_ACT_END_OF_FILE	lex.yy.c	162;"	d	file:
+EOB_ACT_LAST_MATCH	lex.yy.c	163;"	d	file:
+EOF_flag	scan.c	/^static int EOF_flag = FALSE; \/* corrects ungetNextChar behavior on EOF *\/$/;"	v	file:
+EQ	y.tab.c	/^    EQ = 267,$/;"	e	enum:yytokentype	file:
+EQ	y.tab.c	157;"	d	file:
+EQ	y.tab.h	/^    EQ = 267,$/;"	e	enum:yytokentype
+EQ	y.tab.h	89;"	d
+ERROR	y.tab.c	/^    ERROR = 285,$/;"	e	enum:yytokentype	file:
+ERROR	y.tab.c	175;"	d	file:
+ERROR	y.tab.h	/^    ERROR = 285,$/;"	e	enum:yytokentype
+ERROR	y.tab.h	107;"	d
+EXIT_SUCCESS	y.tab.c	326;"	d	file:
+EXIT_SUCCESS	y.tab.c	354;"	d	file:
+EchoSource	main.c	/^int EchoSource = FALSE;$/;"	v
+Error	main.c	/^int Error = FALSE;$/;"	v
+ExpK	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon5
+ExpK	yacc/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon11
+ExpKind	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	t	typeref:enum:__anon7
+ExpKind	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	t	typeref:enum:__anon13
+ExpType	globals.h	/^typedef enum {Void,Integer,VoidArr,IntegerArr} ExpType;$/;"	t	typeref:enum:__anon8
+ExpType	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	t	typeref:enum:__anon14
+FALSE	globals.h	40;"	d
+FALSE	tm.c	17;"	d	file:
+FALSE	yacc/globals.h	40;"	d
+FLEXINT_H	lex.yy.c	29;"	d	file:
+FLEX_BETA	lex.yy.c	13;"	d	file:
+FLEX_SCANNER	lex.yy.c	8;"	d	file:
+FunDclK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+GE	y.tab.c	/^    GE = 272,$/;"	e	enum:yytokentype	file:
+GE	y.tab.c	162;"	d	file:
+GE	y.tab.h	/^    GE = 272,$/;"	e	enum:yytokentype
+GE	y.tab.h	94;"	d
+GT	y.tab.c	/^    GT = 271,$/;"	e	enum:yytokentype	file:
+GT	y.tab.c	161;"	d	file:
+GT	y.tab.h	/^    GT = 271,$/;"	e	enum:yytokentype
+GT	y.tab.h	93;"	d
+IADDR_SIZE	tm.c	21;"	d	file:
+ID	y.tab.c	/^    ID = 264,$/;"	e	enum:yytokentype	file:
+ID	y.tab.c	154;"	d	file:
+ID	y.tab.h	/^    ID = 264,$/;"	e	enum:yytokentype
+ID	y.tab.h	86;"	d
+IF	y.tab.c	/^    IF = 258,$/;"	e	enum:yytokentype	file:
+IF	y.tab.c	148;"	d	file:
+IF	y.tab.h	/^    IF = 258,$/;"	e	enum:yytokentype
+IF	y.tab.h	80;"	d
+INCOMMENT	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INCOMMENT_	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INDENT	util.c	138;"	d	file:
+INEQ	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INGT	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INID	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INITIAL	lex.yy.c	493;"	d	file:
+INLT	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INNE	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INNUM	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INOVER	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+INSTRUCTION	tm.c	/^   } INSTRUCTION;$/;"	t	typeref:struct:__anon4	file:
+INT	y.tab.c	/^    INT = 262,$/;"	e	enum:yytokentype	file:
+INT	y.tab.c	152;"	d	file:
+INT	y.tab.h	/^    INT = 262,$/;"	e	enum:yytokentype
+INT	y.tab.h	84;"	d
+INT16_MAX	lex.yy.c	71;"	d	file:
+INT16_MIN	lex.yy.c	62;"	d	file:
+INT32_MAX	lex.yy.c	74;"	d	file:
+INT32_MIN	lex.yy.c	65;"	d	file:
+INT8_MAX	lex.yy.c	68;"	d	file:
+INT8_MIN	lex.yy.c	59;"	d	file:
+IdK	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon13
+IfK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon12
+Integer	globals.h	/^typedef enum {Void,Integer,VoidArr,IntegerArr} ExpType;$/;"	e	enum:__anon8
+Integer	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon14
+IntegerArr	globals.h	/^typedef enum {Void,Integer,VoidArr,IntegerArr} ExpType;$/;"	e	enum:__anon8
+IterK	globals.h	/^typedef enum {CompK,SelK,IterK,ReturnK} StmtKind;$/;"	e	enum:__anon6
+LBRACE	y.tab.c	/^    LBRACE = 281,$/;"	e	enum:yytokentype	file:
+LBRACE	y.tab.c	171;"	d	file:
+LBRACE	y.tab.h	/^    LBRACE = 281,$/;"	e	enum:yytokentype
+LBRACE	y.tab.h	103;"	d
+LCURLY	y.tab.c	/^    LCURLY = 283,$/;"	e	enum:yytokentype	file:
+LCURLY	y.tab.c	173;"	d	file:
+LCURLY	y.tab.h	/^    LCURLY = 283,$/;"	e	enum:yytokentype
+LCURLY	y.tab.h	105;"	d
+LE	y.tab.c	/^    LE = 270,$/;"	e	enum:yytokentype	file:
+LE	y.tab.c	160;"	d	file:
+LE	y.tab.h	/^    LE = 270,$/;"	e	enum:yytokentype
+LE	y.tab.h	92;"	d
+LINESIZE	tm.c	26;"	d	file:
+LPAREN	y.tab.c	/^    LPAREN = 279,$/;"	e	enum:yytokentype	file:
+LPAREN	y.tab.c	169;"	d	file:
+LPAREN	y.tab.h	/^    LPAREN = 279,$/;"	e	enum:yytokentype
+LPAREN	y.tab.h	101;"	d
+LT	y.tab.c	/^    LT = 269,$/;"	e	enum:yytokentype	file:
+LT	y.tab.c	159;"	d	file:
+LT	y.tab.h	/^    LT = 269,$/;"	e	enum:yytokentype
+LT	y.tab.h	91;"	d
+LineList	symtab.h	/^   } * LineList;$/;"	t	typeref:struct:LineListRec
+LineListRec	symtab.h	/^typedef struct LineListRec$/;"	s
+MAXCHILDREN	globals.h	72;"	d
+MAXCHILDREN	yacc/globals.h	72;"	d
+MAXRESERVED	globals.h	48;"	d
+MAXRESERVED	yacc/globals.h	48;"	d
+MAXTOKENLEN	scan.h	12;"	d
+MINUS	y.tab.c	/^    MINUS = 274,$/;"	e	enum:yytokentype	file:
+MINUS	y.tab.c	164;"	d	file:
+MINUS	y.tab.h	/^    MINUS = 274,$/;"	e	enum:yytokentype
+MINUS	y.tab.h	96;"	d
+NE	y.tab.c	/^    NE = 268,$/;"	e	enum:yytokentype	file:
+NE	y.tab.c	158;"	d	file:
+NE	y.tab.h	/^    NE = 268,$/;"	e	enum:yytokentype
+NE	y.tab.h	90;"	d
+NO_ANALYZE	main.c	13;"	d	file:
+NO_CODE	main.c	18;"	d	file:
+NO_PARSE	main.c	11;"	d	file:
+NO_REGS	tm.c	23;"	d	file:
+NUM	y.tab.c	/^    NUM = 265,$/;"	e	enum:yytokentype	file:
+NUM	y.tab.c	155;"	d	file:
+NUM	y.tab.h	/^    NUM = 265,$/;"	e	enum:yytokentype
+NUM	y.tab.h	87;"	d
+NodeKind	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	t	typeref:enum:__anon5
+NodeKind	yacc/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	t	typeref:enum:__anon11
+OBJS	Makefile	/^OBJS = main.o util.o lex.yy.o y.tab.o symtab.o analyze.o$/;"	m
+OPCLASS	tm.c	/^   } OPCLASS;$/;"	t	typeref:enum:__anon1	file:
+OPCODE	tm.c	/^   } OPCODE;$/;"	t	typeref:enum:__anon2	file:
+OUTER	y.tab.c	/^    OUTER = 286$/;"	e	enum:yytokentype	file:
+OUTER	y.tab.c	176;"	d	file:
+OUTER	y.tab.h	/^    OUTER = 286$/;"	e	enum:yytokentype
+OUTER	y.tab.h	108;"	d
+OVER	y.tab.c	/^    OVER = 276,$/;"	e	enum:yytokentype	file:
+OVER	y.tab.c	166;"	d	file:
+OVER	y.tab.h	/^    OVER = 276,$/;"	e	enum:yytokentype
+OVER	y.tab.h	98;"	d
+OpK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+OpK	yacc/globals.h	/^typedef enum {OpK,ConstK,IdK} ExpKind;$/;"	e	enum:__anon13
+PC_REG	tm.c	24;"	d	file:
+PLUS	y.tab.c	/^    PLUS = 273,$/;"	e	enum:yytokentype	file:
+PLUS	y.tab.c	163;"	d	file:
+PLUS	y.tab.h	/^    PLUS = 273,$/;"	e	enum:yytokentype
+PLUS	y.tab.h	95;"	d
+ParamK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+RBRACE	y.tab.c	/^    RBRACE = 282,$/;"	e	enum:yytokentype	file:
+RBRACE	y.tab.c	172;"	d	file:
+RBRACE	y.tab.h	/^    RBRACE = 282,$/;"	e	enum:yytokentype
+RBRACE	y.tab.h	104;"	d
+RCURLY	y.tab.c	/^    RCURLY = 284,$/;"	e	enum:yytokentype	file:
+RCURLY	y.tab.c	174;"	d	file:
+RCURLY	y.tab.h	/^    RCURLY = 284,$/;"	e	enum:yytokentype
+RCURLY	y.tab.h	106;"	d
+REJECT	lex.yy.c	472;"	d	file:
+RETURN	y.tab.c	/^    RETURN = 261,$/;"	e	enum:yytokentype	file:
+RETURN	y.tab.c	151;"	d	file:
+RETURN	y.tab.h	/^    RETURN = 261,$/;"	e	enum:yytokentype
+RETURN	y.tab.h	83;"	d
+RPAREN	y.tab.c	/^    RPAREN = 280,$/;"	e	enum:yytokentype	file:
+RPAREN	y.tab.c	170;"	d	file:
+RPAREN	y.tab.h	/^    RPAREN = 280,$/;"	e	enum:yytokentype
+RPAREN	y.tab.h	102;"	d
+ReadK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon12
+RepeatK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon12
+ReturnK	globals.h	/^typedef enum {CompK,SelK,IterK,ReturnK} StmtKind;$/;"	e	enum:__anon6
+SEMI	y.tab.c	/^    SEMI = 277,$/;"	e	enum:yytokentype	file:
+SEMI	y.tab.c	167;"	d	file:
+SEMI	y.tab.h	/^    SEMI = 277,$/;"	e	enum:yytokentype
+SEMI	y.tab.h	99;"	d
+SHIFT	symtab.h	22;"	d
+SIZE	symtab.h	18;"	d
+SIZE_MAX	lex.yy.c	87;"	d	file:
+START	scan.c	/^   { START,INEQ,INLT,INGT,INNE,INOVER,INCOMMENT,INCOMMENT_,INNUM,INID,DONE }$/;"	e	enum:__anon17	file:
+STEPRESULT	tm.c	/^   } STEPRESULT;$/;"	t	typeref:enum:__anon3	file:
+Scope	symtab.h	/^	 } * Scope;$/;"	t	typeref:struct:ScopeListRec
+ScopeListRec	symtab.h	/^typedef struct ScopeListRec$/;"	s
+Scope_Arr	symtab.c	/^static Scope Scope_Arr[SIZE];$/;"	v	file:
+Scope_Arr_Num	symtab.c	/^static int Scope_Arr_Num = 0;$/;"	v	file:
+Scope_Stack	symtab.c	/^static Scope Scope_Stack[SIZE];$/;"	v	file:
+Scope_Stack_Num	symtab.c	/^static int Scope_Stack_Num = 0;$/;"	v	file:
+SelK	globals.h	/^typedef enum {CompK,SelK,IterK,ReturnK} StmtKind;$/;"	e	enum:__anon6
+StateType	scan.c	/^   StateType;$/;"	t	typeref:enum:__anon17	file:
+StmtK	globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon5
+StmtK	yacc/globals.h	/^typedef enum {StmtK,ExpK} NodeKind;$/;"	e	enum:__anon11
+StmtKind	globals.h	/^typedef enum {CompK,SelK,IterK,ReturnK} StmtKind;$/;"	t	typeref:enum:__anon6
+StmtKind	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	t	typeref:enum:__anon12
+TIMES	y.tab.c	/^    TIMES = 275,$/;"	e	enum:yytokentype	file:
+TIMES	y.tab.c	165;"	d	file:
+TIMES	y.tab.h	/^    TIMES = 275,$/;"	e	enum:yytokentype
+TIMES	y.tab.h	97;"	d
+TRUE	globals.h	44;"	d
+TRUE	tm.c	14;"	d	file:
+TRUE	yacc/globals.h	44;"	d
+TokenType	globals.h	/^typedef int TokenType; $/;"	t
+TokenType	yacc/globals.h	/^typedef int TokenType; $/;"	t
+TraceAnalyze	main.c	/^int TraceAnalyze = TRUE;$/;"	v
+TraceCode	main.c	/^int TraceCode = FALSE;$/;"	v
+TraceParse	main.c	/^int TraceParse = FALSE;$/;"	v
+TraceScan	main.c	/^int TraceScan = FALSE;$/;"	v
+TreeNode	globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+TreeNode	yacc/globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+UINT16_MAX	lex.yy.c	80;"	d	file:
+UINT32_MAX	lex.yy.c	83;"	d	file:
+UINT8_MAX	lex.yy.c	77;"	d	file:
+UNINDENT	util.c	139;"	d	file:
+VOID	y.tab.c	/^    VOID = 263,$/;"	e	enum:yytokentype	file:
+VOID	y.tab.c	153;"	d	file:
+VOID	y.tab.h	/^    VOID = 263,$/;"	e	enum:yytokentype
+VOID	y.tab.h	85;"	d
+VarDclK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+VarK	globals.h	/^typedef enum {VarDclK,FunDclK,AssignK,CallK,OpK,ConstK,VarK,ParamK} ExpKind;$/;"	e	enum:__anon7
+Void	globals.h	/^typedef enum {Void,Integer,VoidArr,IntegerArr} ExpType;$/;"	e	enum:__anon8
+Void	yacc/globals.h	/^typedef enum {Void,Integer,Boolean} ExpType;$/;"	e	enum:__anon14
+VoidArr	globals.h	/^typedef enum {Void,Integer,VoidArr,IntegerArr} ExpType;$/;"	e	enum:__anon8
+WHILE	y.tab.c	/^    WHILE = 260,$/;"	e	enum:yytokentype	file:
+WHILE	y.tab.c	150;"	d	file:
+WHILE	y.tab.h	/^    WHILE = 260,$/;"	e	enum:yytokentype
+WHILE	y.tab.h	82;"	d
+WORDSIZE	tm.c	27;"	d	file:
+WriteK	yacc/globals.h	/^typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;$/;"	e	enum:__anon12
+YYABORT	y.tab.c	681;"	d	file:
+YYACCEPT	y.tab.c	680;"	d	file:
+YYBACKUP	y.tab.c	687;"	d	file:
+YYBISON	y.tab.c	44;"	d	file:
+YYBISON_VERSION	y.tab.c	47;"	d	file:
+YYCASE_	y.tab.c	1028;"	d	file:
+YYCASE_	y.tab.c	1038;"	d	file:
+YYCOPY	y.tab.c	418;"	d	file:
+YYCOPY	y.tab.c	421;"	d	file:
+YYCOPY_NEEDED	y.tab.c	393;"	d	file:
+YYDEBUG	y.tab.c	105;"	d	file:
+YYDEBUG	y.tab.h	37;"	d
+YYDPRINTF	y.tab.c	718;"	d	file:
+YYDPRINTF	y.tab.c	833;"	d	file:
+YYEMPTY	y.tab.c	677;"	d	file:
+YYEOF	y.tab.c	678;"	d	file:
+YYERRCODE	y.tab.c	706;"	d	file:
+YYERROR	y.tab.c	682;"	d	file:
+YYERROR_VERBOSE	y.tab.c	93;"	d	file:
+YYERROR_VERBOSE	y.tab.c	94;"	d	file:
+YYERROR_VERBOSE	y.tab.c	96;"	d	file:
+YYFINAL	y.tab.c	434;"	d	file:
+YYFPRINTF	y.tab.c	715;"	d	file:
+YYFREE	y.tab.c	364;"	d	file:
+YYINITDEPTH	y.tab.c	842;"	d	file:
+YYLAST	y.tab.c	436;"	d	file:
+YYMALLOC	y.tab.c	358;"	d	file:
+YYMAXDEPTH	y.tab.c	853;"	d	file:
+YYMAXUTOK	y.tab.c	450;"	d	file:
+YYNNTS	y.tab.c	441;"	d	file:
+YYNRULES	y.tab.c	443;"	d	file:
+YYNSTATES	y.tab.c	445;"	d	file:
+YYNTOKENS	y.tab.c	439;"	d	file:
+YYPACT_NINF	y.tab.c	535;"	d	file:
+YYPARSER	y.tab.c	67;"	d	file:
+YYPOPSTACK	y.tab.c	1153;"	d	file:
+YYPULL	y.tab.c	59;"	d	file:
+YYPURE	y.tab.c	53;"	d	file:
+YYPUSH	y.tab.c	56;"	d	file:
+YYRECOVERING	y.tab.c	685;"	d	file:
+YYSIZE_MAXIMUM	y.tab.c	237;"	d	file:
+YYSIZE_T	y.tab.c	226;"	d	file:
+YYSIZE_T	y.tab.c	228;"	d	file:
+YYSIZE_T	y.tab.c	231;"	d	file:
+YYSIZE_T	y.tab.c	233;"	d	file:
+YYSKELETON_NAME	y.tab.c	50;"	d	file:
+YYSTACK_ALLOC	y.tab.c	312;"	d	file:
+YYSTACK_ALLOC	y.tab.c	316;"	d	file:
+YYSTACK_ALLOC	y.tab.c	321;"	d	file:
+YYSTACK_ALLOC	y.tab.c	344;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	y.tab.c	341;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	y.tab.c	347;"	d	file:
+YYSTACK_BYTES	y.tab.c	389;"	d	file:
+YYSTACK_FREE	y.tab.c	335;"	d	file:
+YYSTACK_FREE	y.tab.c	345;"	d	file:
+YYSTACK_GAP_MAXIMUM	y.tab.c	385;"	d	file:
+YYSTACK_RELOCATE	y.tab.c	400;"	d	file:
+YYSTATE	lex.yy.c	123;"	d	file:
+YYSTYPE	y.tab.c	/^typedef int YYSTYPE;$/;"	t	file:
+YYSTYPE	y.tab.c	74;"	d	file:
+YYSTYPE	y.tab.h	/^typedef int YYSTYPE;$/;"	t
+YYSTYPE_IS_DECLARED	y.tab.c	182;"	d	file:
+YYSTYPE_IS_DECLARED	y.tab.h	114;"	d
+YYSTYPE_IS_TRIVIAL	y.tab.c	181;"	d	file:
+YYSTYPE_IS_TRIVIAL	y.tab.h	113;"	d
+YYTABLES_NAME	lex.yy.c	1946;"	d	file:
+YYTABLE_NINF	y.tab.c	540;"	d	file:
+YYTERROR	y.tab.c	705;"	d	file:
+YYTOKENTYPE	y.tab.c	113;"	d	file:
+YYTOKENTYPE	y.tab.h	45;"	d
+YYTRANSLATE	y.tab.c	452;"	d	file:
+YYUNDEFTOK	y.tab.c	449;"	d	file:
+YYUSE	y.tab.c	280;"	d	file:
+YYUSE	y.tab.c	282;"	d	file:
+YY_	y.tab.c	243;"	d	file:
+YY_	y.tab.c	247;"	d	file:
+YY_ATTRIBUTE	y.tab.c	255;"	d	file:
+YY_ATTRIBUTE	y.tab.c	257;"	d	file:
+YY_ATTRIBUTE_PURE	y.tab.c	262;"	d	file:
+YY_ATTRIBUTE_UNUSED	y.tab.c	266;"	d	file:
+YY_AT_BOL	lex.yy.c	322;"	d	file:
+YY_BREAK	lex.yy.c	667;"	d	file:
+YY_BUFFER_EOF_PENDING	lex.yy.c	243;"	d	file:
+YY_BUFFER_NEW	lex.yy.c	231;"	d	file:
+YY_BUFFER_NORMAL	lex.yy.c	232;"	d	file:
+YY_BUFFER_STATE	lex.yy.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	lex.yy.c	137;"	d	file:
+YY_BUF_SIZE	lex.yy.c	139;"	d	file:
+YY_CHAR	lex.yy.c	/^typedef flex_uint8_t YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	lex.yy.c	259;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	lex.yy.c	265;"	d	file:
+YY_DECL	lex.yy.c	655;"	d	file:
+YY_DECL_IS_OURS	lex.yy.c	651;"	d	file:
+YY_DO_BEFORE_ACTION	lex.yy.c	348;"	d	file:
+YY_END_OF_BUFFER	lex.yy.c	355;"	d	file:
+YY_END_OF_BUFFER_CHAR	lex.yy.c	128;"	d	file:
+YY_EXIT_FAILURE	lex.yy.c	1742;"	d	file:
+YY_EXTRA_TYPE	lex.yy.c	504;"	d	file:
+YY_FATAL_ERROR	lex.yy.c	642;"	d	file:
+YY_FLEX_MAJOR_VERSION	lex.yy.c	9;"	d	file:
+YY_FLEX_MINOR_VERSION	lex.yy.c	10;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	lex.yy.c	11;"	d	file:
+YY_FLUSH_BUFFER	lex.yy.c	293;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	y.tab.c	287;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	y.tab.c	297;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	y.tab.c	291;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	y.tab.c	298;"	d	file:
+YY_INITIAL_VALUE	y.tab.c	294;"	d	file:
+YY_INITIAL_VALUE	y.tab.c	301;"	d	file:
+YY_INPUT	lex.yy.c	595;"	d	file:
+YY_INT_ALIGNED	lex.yy.c	4;"	d	file:
+YY_LESS_LINENO	lex.yy.c	165;"	d	file:
+YY_LINENO_REWIND_TO	lex.yy.c	166;"	d	file:
+YY_LOCATION_PRINT	y.tab.c	726;"	d	file:
+YY_MORE_ADJ	lex.yy.c	474;"	d	file:
+YY_NEW_FILE	lex.yy.c	127;"	d	file:
+YY_NULL	lex.yy.c	106;"	d	file:
+YY_NULLPTR	y.tab.c	85;"	d	file:
+YY_NULLPTR	y.tab.c	87;"	d	file:
+YY_NUM_RULES	lex.yy.c	354;"	d	file:
+YY_READ_BUF_SIZE	lex.yy.c	577;"	d	file:
+YY_READ_BUF_SIZE	lex.yy.c	579;"	d	file:
+YY_REDUCE_PRINT	y.tab.c	823;"	d	file:
+YY_REDUCE_PRINT	y.tab.c	836;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	lex.yy.c	475;"	d	file:
+YY_RULE_SETUP	lex.yy.c	670;"	d	file:
+YY_SC_TO_UI	lex.yy.c	111;"	d	file:
+YY_STACK_PRINT	y.tab.c	792;"	d	file:
+YY_STACK_PRINT	y.tab.c	835;"	d	file:
+YY_START	lex.yy.c	122;"	d	file:
+YY_START_STACK_INCR	lex.yy.c	637;"	d	file:
+YY_STATE_BUF_SIZE	lex.yy.c	145;"	d	file:
+YY_STATE_EOF	lex.yy.c	125;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	lex.yy.c	184;"	d	file:
+YY_SYMBOL_PRINT	y.tab.c	730;"	d	file:
+YY_SYMBOL_PRINT	y.tab.c	834;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	lex.yy.c	148;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	lex.yy.c	153;"	d	file:
+YY_USER_ACTION	lex.yy.c	662;"	d	file:
+YY_YY_Y_TAB_H_INCLUDED	y.tab.c	102;"	d	file:
+YY_YY_Y_TAB_H_INCLUDED	y.tab.h	34;"	d
+_ANALYZE_H_	analyze.h	9;"	d
+_CGEN_H_	cgen.h	9;"	d
+_CODE_H_	code.h	10;"	d
+_GLOBALS_H_	globals.h	11;"	d
+_GLOBALS_H_	yacc/globals.h	11;"	d
+_Noreturn	y.tab.c	272;"	d	file:
+_Noreturn	y.tab.c	274;"	d	file:
+_PARSE_H_	parse.h	9;"	d
+_SCAN_H_	scan.h	9;"	d
+_SYMTAB_H_	symtab.h	10;"	d
+_UTIL_H_	util.h	9;"	d
+__STDC_LIMIT_MACROS	lex.yy.c	39;"	d	file:
+ac	code.h	27;"	d
+ac1	code.h	30;"	d
+additive_expression	cminus.y	/^additive_expression : additive_expression addop term$/;"	l
+addop	cminus.y	/^addop								: PLUS$/;"	l
+alloca	y.tab.c	319;"	d	file:
+arg_list	cminus.y	/^arg_list 						: arg_list COMMA expression$/;"	l
+args	cminus.y	/^args								: arg_list { $$ = $1; }$/;"	l
+arraySize	globals.h	/^		 int arraySize;$/;"	m	struct:treeNode
+assign_stmt	parse.c	/^TreeNode * assign_stmt(void)$/;"	f
+assign_stmt	yacc/tiny.y	/^assign_stmt : ID { savedName = copyString(tokenString);$/;"	l
+atEOL	tm.c	/^int atEOL(void)$/;"	f
+attr	globals.h	/^             char * name; } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon10
+attr	yacc/globals.h	/^             char * name; } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon16
+bucket	symtab.h	/^		 BucketList bucket[SIZE];$/;"	m	struct:ScopeListRec
+bufsize	scan.c	/^static int bufsize = 0; \/* current size of buffer string *\/$/;"	v	file:
+buildSymtab	analyze.c	/^void buildSymtab(TreeNode * syntaxTree)$/;"	f
+cGen	cgen.c	/^static void cGen( TreeNode * tree)$/;"	f	file:
+call	cminus.y	/^call								: id LPAREN args RPAREN$/;"	l
+ch	tm.c	/^char ch  ;$/;"	v
+checkNode	analyze.c	/^static void checkNode(TreeNode * t)$/;"	f	file:
+child	globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+child	yacc/globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+code	main.c	/^FILE * code;$/;"	v
+codeGen	cgen.c	/^void codeGen(TreeNode * syntaxTree, char * codefile)$/;"	f
+compound_stmt	cminus.y	/^compound_stmt				: LCURLY local_declarations statement_list RCURLY$/;"	l
+copyString	util.c	/^char * copyString(char * s)$/;"	f
+dMem	tm.c	/^int dMem [DADDR_SIZE];$/;"	v
+declaration	cminus.y	/^declaration					: var_declaration {$$ = $1;}$/;"	l
+declaration_list	cminus.y	/^declaration_list		: declaration_list declaration$/;"	l
+dloc	tm.c	/^int dloc = 0 ;$/;"	v
+doCommand	tm.c	/^int doCommand (void)$/;"	f
+done	tm.c	/^int done  ;$/;"	v
+emitBackup	code.c	/^void emitBackup( int loc)$/;"	f
+emitComment	code.c	/^void emitComment( char * c )$/;"	f
+emitLoc	code.c	/^static int emitLoc = 0 ;$/;"	v	file:
+emitRM	code.c	/^void emitRM( char * op, int r, int d, int s, char *c)$/;"	f
+emitRM_Abs	code.c	/^void emitRM_Abs( char *op, int r, int a, char * c)$/;"	f
+emitRO	code.c	/^void emitRO( char *op, int r, int s, int t, char *c)$/;"	f
+emitRestore	code.c	/^void emitRestore(void)$/;"	f
+emitSkip	code.c	/^int emitSkip( int howMany)$/;"	f
+error	tm.c	/^int error( char * msg, int lineNo, int instNo)$/;"	f
+exp	globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon9
+exp	parse.c	/^TreeNode * exp(void)$/;"	f
+exp	yacc/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon15
+exp	yacc/tiny.y	/^exp         : simple_exp LT simple_exp $/;"	l
+expression	cminus.y	/^expression 					: var ASSIGN expression$/;"	l
+expression_stmt	cminus.y	/^expression_stmt			: expression SEMI { $$ = $1; }$/;"	l
+factor	cminus.y	/^factor      				: LPAREN expression RPAREN { $$ = $2; }$/;"	l
+factor	parse.c	/^TreeNode * factor(void)$/;"	f
+factor	yacc/tiny.y	/^factor      : LPAREN exp RPAREN$/;"	l
+flex_int16_t	lex.yy.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	lex.yy.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	lex.yy.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	lex.yy.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	lex.yy.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	lex.yy.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	lex.yy.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	lex.yy.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	lex.yy.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	lex.yy.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	lex.yy.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	lex.yy.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+fun_declaration	cminus.y	/^fun_declaration			: type_specifier id LPAREN params RPAREN compound_stmt$/;"	l
+genExp	cgen.c	/^static void genExp( TreeNode * tree)$/;"	f	file:
+genStmt	cgen.c	/^static void genStmt( TreeNode * tree)$/;"	f	file:
+getCh	tm.c	/^void getCh (void)$/;"	f
+getNextChar	scan.c	/^static int getNextChar(void)$/;"	f	file:
+getNum	tm.c	/^int getNum (void)$/;"	f
+getToken	lex.yy.c	/^TokenType getToken(void)$/;"	f
+getToken	scan.c	/^TokenType getToken(void)$/;"	f
+getWord	tm.c	/^int getWord (void)$/;"	f
+globalNum	analyze.c	/^static int globalNum = 0;$/;"	v	file:
+gp	code.h	24;"	d
+hash	symtab.c	/^static int hash ( char * key )$/;"	f	file:
+highEmitLoc	code.c	/^static int highEmitLoc = 0;$/;"	v	file:
+iMem	tm.c	/^INSTRUCTION iMem [IADDR_SIZE];$/;"	v
+iarg1	tm.c	/^      int iarg1  ;$/;"	m	struct:__anon4	file:
+iarg2	tm.c	/^      int iarg2  ;$/;"	m	struct:__anon4	file:
+iarg3	tm.c	/^      int iarg3  ;$/;"	m	struct:__anon4	file:
+icountflag	tm.c	/^int icountflag = FALSE;$/;"	v
+id	cminus.y	/^id									: ID$/;"	l
+if_stmt	parse.c	/^TreeNode * if_stmt(void)$/;"	f
+if_stmt	yacc/tiny.y	/^if_stmt     : IF exp THEN stmt_seq END$/;"	l
+iloc	tm.c	/^int iloc = 0 ;$/;"	v
+inCol	tm.c	/^int inCol  ;$/;"	v
+in_Line	tm.c	/^char in_Line[LINESIZE] ;$/;"	v
+indentno	util.c	/^static int indentno = 0;$/;"	v	file:
+initSymtab	analyze.c	/^void initSymtab()$/;"	f
+insertNode	analyze.c	/^static void insertNode( TreeNode * t)$/;"	f	file:
+iop	tm.c	/^      int iop  ;$/;"	m	struct:__anon4	file:
+isfirst	analyze.c	/^static int isfirst = FALSE; $/;"	v	file:
+iteration_stmt	cminus.y	/^iteration_stmt 			: WHILE LPAREN expression RPAREN statement$/;"	l
+kind	globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon9
+kind	yacc/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon15
+level	symtab.h	/^		 int level;$/;"	m	struct:ScopeListRec
+lineBuf	scan.c	/^static char lineBuf[BUFLEN]; \/* holds the current line *\/$/;"	v	file:
+lineLen	tm.c	/^int lineLen ;$/;"	v
+lineno	globals.h	/^     int lineno;$/;"	m	struct:treeNode
+lineno	main.c	/^int lineno = 0;$/;"	v
+lineno	symtab.h	/^   { int lineno;$/;"	m	struct:LineListRec
+lineno	yacc/globals.h	/^     int lineno;$/;"	m	struct:treeNode
+linepos	scan.c	/^static int linepos = 0; \/* current position in LineBuf *\/$/;"	v	file:
+lines	symtab.h	/^     LineList lines;$/;"	m	struct:BucketListRec
+listing	main.c	/^FILE * listing;$/;"	v
+local_declarations	cminus.y	/^local_declarations	: local_declarations var_declaration$/;"	l
+location	analyze.c	/^static int location = 0;$/;"	v	file:
+main	main.c	/^int main( int argc, char * argv[] )$/;"	f
+main	tm.c	/^main( int argc, char * argv[] )$/;"	f
+match	parse.c	/^static void match(TokenType expected)$/;"	f	file:
+memloc	symtab.h	/^     int memloc ; \/* memory location for variable *\/$/;"	m	struct:BucketListRec
+mp	code.h	18;"	d
+mulop	cminus.y	/^mulop								: TIMES$/;"	l
+name	globals.h	/^             char * name; } attr;$/;"	m	union:treeNode::__anon10
+name	symtab.h	/^	 { char * name;$/;"	m	struct:ScopeListRec
+name	symtab.h	/^   { char * name;$/;"	m	struct:BucketListRec
+name	yacc/globals.h	/^             char * name; } attr;$/;"	m	union:treeNode::__anon16
+newExpNode	util.c	/^TreeNode * newExpNode(ExpKind kind)$/;"	f
+newStmtNode	util.c	/^TreeNode * newStmtNode(StmtKind kind)$/;"	f
+next	symtab.h	/^     struct BucketListRec * next;$/;"	m	struct:BucketListRec	typeref:struct:BucketListRec::BucketListRec
+next	symtab.h	/^     struct LineListRec * next;$/;"	m	struct:LineListRec	typeref:struct:LineListRec::LineListRec
+nodekind	globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+nodekind	yacc/globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+nonBlank	tm.c	/^int nonBlank (void)$/;"	f
+nullProc	analyze.c	/^static void nullProc(TreeNode * t)$/;"	f	file:
+num	cminus.y	/^num									: NUM$/;"	l
+num	tm.c	/^int num  ;$/;"	v
+op	globals.h	/^     union { TokenType op;$/;"	m	union:treeNode::__anon10
+op	yacc/globals.h	/^     union { TokenType op;$/;"	m	union:treeNode::__anon16
+opADD	tm.c	/^   opADD,    \/* RR     reg(r) = reg(s)+reg(t) *\/$/;"	e	enum:__anon2	file:
+opClass	tm.c	/^int opClass( int c )$/;"	f
+opCodeTab	tm.c	/^char * opCodeTab[]$/;"	v
+opDIV	tm.c	/^   opDIV,    \/* RR     reg(r) = reg(s)\/reg(t) *\/$/;"	e	enum:__anon2	file:
+opHALT	tm.c	/^   opHALT,    \/* RR     halt, operands are ignored *\/$/;"	e	enum:__anon2	file:
+opIN	tm.c	/^   opIN,      \/* RR     read into reg(r); s and t are ignored *\/$/;"	e	enum:__anon2	file:
+opJEQ	tm.c	/^   opJEQ,     \/* RA     if reg(r)==0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opJGE	tm.c	/^   opJGE,     \/* RA     if reg(r)>=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opJGT	tm.c	/^   opJGT,     \/* RA     if reg(r)>0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opJLE	tm.c	/^   opJLE,     \/* RA     if reg(r)<=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opJLT	tm.c	/^   opJLT,     \/* RA     if reg(r)<0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opJNE	tm.c	/^   opJNE,     \/* RA     if reg(r)!=0 then reg(7) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opLD	tm.c	/^   opLD,      \/* RM     reg(r) = mem(d+reg(s)) *\/$/;"	e	enum:__anon2	file:
+opLDA	tm.c	/^   opLDA,     \/* RA     reg(r) = d+reg(s) *\/$/;"	e	enum:__anon2	file:
+opLDC	tm.c	/^   opLDC,     \/* RA     reg(r) = d ; reg(s) is ignored *\/$/;"	e	enum:__anon2	file:
+opMUL	tm.c	/^   opMUL,    \/* RR     reg(r) = reg(s)*reg(t) *\/$/;"	e	enum:__anon2	file:
+opOUT	tm.c	/^   opOUT,     \/* RR     write from reg(r), s and t are ignored *\/$/;"	e	enum:__anon2	file:
+opRALim	tm.c	/^   opRALim    \/* Limit of RA opcodes *\/$/;"	e	enum:__anon2	file:
+opRMLim	tm.c	/^   opRMLim,   \/* Limit of RM opcodes *\/$/;"	e	enum:__anon2	file:
+opRRLim	tm.c	/^   opRRLim,   \/* limit of RR opcodes *\/$/;"	e	enum:__anon2	file:
+opST	tm.c	/^   opST,      \/* RM     mem(d+reg(s)) = reg(r) *\/$/;"	e	enum:__anon2	file:
+opSUB	tm.c	/^   opSUB,    \/* RR     reg(r) = reg(s)-reg(t) *\/$/;"	e	enum:__anon2	file:
+opclRA	tm.c	/^   opclRA      \/* reg r, int d+s *\/$/;"	e	enum:__anon1	file:
+opclRM	tm.c	/^   opclRM,     \/* reg r, mem d+s *\/$/;"	e	enum:__anon1	file:
+opclRR	tm.c	/^   opclRR,     \/* reg operands r,s,t *\/$/;"	e	enum:__anon1	file:
+param	cminus.y	/^param								: type_specifier id$/;"	l
+paramNum	symtab.h	/^		 int paramNum;$/;"	m	struct:BucketListRec
+param_list	cminus.y	/^param_list					: param_list COMMA param$/;"	l
+params	cminus.y	/^params							: param_list { $$ = $1; }$/;"	l
+parent	symtab.h	/^		 struct ScopeListRec * parent;$/;"	m	struct:ScopeListRec	typeref:struct:ScopeListRec::ScopeListRec
+parse	parse.c	/^TreeNode * parse(void)$/;"	f
+parse	y.tab.c	/^TreeNode * parse(void)$/;"	f
+pc	code.h	13;"	d
+pgm	tm.c	/^FILE *pgm  ;$/;"	v
+pgmName	tm.c	/^char pgmName[20];$/;"	v
+printSpaces	util.c	/^static void printSpaces(void)$/;"	f	file:
+printSymTab	symtab.c	/^void printSymTab(FILE * listing)$/;"	f
+printToken	util.c	/^void printToken( TokenType token, const char* tokenString )$/;"	f
+printTree	util.c	/^void printTree( TreeNode * tree )$/;"	f
+printType	util.c	/^char* printType(ExpType type)$/;"	f
+program	cminus.y	/^program     				: declaration_list$/;"	l
+program	yacc/tiny.y	/^program     : stmt_seq$/;"	l
+readInstructions	tm.c	/^int readInstructions (void)$/;"	f
+read_stmt	parse.c	/^TreeNode * read_stmt(void)$/;"	f
+read_stmt	yacc/tiny.y	/^read_stmt   : READ ID$/;"	l
+reg	tm.c	/^int reg [NO_REGS];$/;"	v
+relop	cminus.y	/^relop								: LE$/;"	l
+repeat_stmt	parse.c	/^TreeNode * repeat_stmt(void)$/;"	f
+repeat_stmt	yacc/tiny.y	/^repeat_stmt : REPEAT stmt_seq UNTIL exp$/;"	l
+reservedLookup	scan.c	/^static TokenType reservedLookup (char * s)$/;"	f	file:
+reservedWords	scan.c	/^    } reservedWords[MAXRESERVED] = {$/;"	v	typeref:struct:__anon18	file:
+return_stmt	cminus.y	/^return_stmt					: RETURN SEMI { $$ = newStmtNode(ReturnK); }$/;"	l
+savedLineNo	y.tab.c	/^static int savedLineNo;  \/* ditto *\/$/;"	v	file:
+savedName	y.tab.c	/^static char * savedName; \/* for use in assignments *\/$/;"	v	file:
+savedTree	y.tab.c	/^static TreeNode * savedTree; \/* stores syntax tree for later return *\/$/;"	v	file:
+scope_make	symtab.c	/^Scope scope_make(char* scope_name)$/;"	f
+scope_pop	symtab.c	/^void scope_pop()$/;"	f
+scope_push	symtab.c	/^void scope_push(Scope sc)$/;"	f
+scope_top	symtab.c	/^Scope scope_top()$/;"	f
+selection_stmt	cminus.y	/^selection_stmt			: IF LPAREN expression RPAREN statement %prec OUTER$/;"	l
+short	y.tab.c	197;"	d	file:
+sibling	globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+sibling	yacc/globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+simple_exp	parse.c	/^TreeNode * simple_exp(void)$/;"	f
+simple_exp	yacc/tiny.y	/^simple_exp  : simple_exp PLUS term $/;"	l
+simple_expression	cminus.y	/^simple_expression  	: additive_expression relop additive_expression $/;"	l
+skipCh	tm.c	/^int skipCh ( char c  )$/;"	f
+source	main.c	/^FILE * source;$/;"	v
+srDMEM_ERR	tm.c	/^   srDMEM_ERR,$/;"	e	enum:__anon3	file:
+srHALT	tm.c	/^   srHALT,$/;"	e	enum:__anon3	file:
+srIMEM_ERR	tm.c	/^   srIMEM_ERR,$/;"	e	enum:__anon3	file:
+srOKAY	tm.c	/^   srOKAY,$/;"	e	enum:__anon3	file:
+srZERODIVIDE	tm.c	/^   srZERODIVIDE$/;"	e	enum:__anon3	file:
+st_insert	symtab.c	/^void st_insert(char * name, ExpType type, int lineno, int loc, int param)$/;"	f
+st_lookup	symtab.c	/^BucketList st_lookup ( char * scope, char * name )$/;"	f
+st_lookup_excluding_parent	symtab.c	/^BucketList st_lookup_excluding_parent ( char * scope, char * name)$/;"	f
+statement	cminus.y	/^statement        		: expression_stmt { $$ = $1; }$/;"	l
+statement	parse.c	/^TreeNode * statement(void)$/;"	f
+statement_list	cminus.y	/^statement_list			: statement_list statement$/;"	l
+stepResultTab	tm.c	/^char * stepResultTab[]$/;"	v
+stepTM	tm.c	/^STEPRESULT stepTM (void)$/;"	f
+stmt	globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon9
+stmt	yacc/globals.h	/^     union { StmtKind stmt; ExpKind exp;} kind;$/;"	m	union:treeNode::__anon15
+stmt	yacc/tiny.y	/^stmt        : if_stmt { $$ = $1; }$/;"	l
+stmt_seq	yacc/tiny.y	/^stmt_seq    : stmt_seq SEMI stmt$/;"	l
+stmt_sequence	parse.c	/^TreeNode * stmt_sequence(void)$/;"	f
+str	scan.c	/^    { char* str;$/;"	m	struct:__anon18	file:
+symbolError	analyze.c	/^static void symbolError(TreeNode * t, char * message)$/;"	f	file:
+syntaxError	parse.c	/^static void syntaxError(char * message)$/;"	f	file:
+term	cminus.y	/^term        				: term mulop factor $/;"	l
+term	parse.c	/^TreeNode * term(void)$/;"	f
+term	yacc/tiny.y	/^term        : term TIMES factor $/;"	l
+tmpOffset	cgen.c	/^static int tmpOffset = 0;$/;"	v	file:
+tok	scan.c	/^      TokenType tok;$/;"	m	struct:__anon18	file:
+token	parse.c	/^static TokenType token; \/* holds current token *\/$/;"	v	file:
+tokenString	lex.yy.c	/^char tokenString[MAXTOKENLEN+1];$/;"	v
+tokenString	scan.c	/^char tokenString[MAXTOKENLEN+1];$/;"	v
+traceflag	tm.c	/^int traceflag = FALSE;$/;"	v
+traverse	analyze.c	/^static void traverse( TreeNode * t,$/;"	f	file:
+treeNode	globals.h	/^typedef struct treeNode$/;"	s
+treeNode	yacc/globals.h	/^typedef struct treeNode$/;"	s
+type	globals.h	/^     ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+type	symtab.h	/^		 ExpType type;$/;"	m	struct:BucketListRec
+type	yacc/globals.h	/^     ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+typeCheck	analyze.c	/^void typeCheck(TreeNode * syntaxTree)$/;"	f
+typeError	analyze.c	/^static void typeError(TreeNode * t, char * message)$/;"	f	file:
+type_specifier	cminus.y	/^type_specifier			: INT$/;"	l
+ungetNextChar	scan.c	/^static void ungetNextChar(void)$/;"	f	file:
+unput	lex.yy.c	181;"	d	file:
+val	globals.h	/^             int val;$/;"	m	union:treeNode::__anon10
+val	yacc/globals.h	/^             int val;$/;"	m	union:treeNode::__anon16
+var	cminus.y	/^var 								: id$/;"	l
+var_declaration	cminus.y	/^var_declaration			: type_specifier id SEMI$/;"	l
+word	tm.c	/^char word[WORDSIZE] ;$/;"	v
+writeInstruction	tm.c	/^void writeInstruction ( int loc )$/;"	f
+write_stmt	parse.c	/^TreeNode * write_stmt(void)$/;"	f
+write_stmt	yacc/tiny.y	/^write_stmt  : WRITE exp$/;"	l
+yy_accept	lex.yy.c	/^static const flex_int16_t yy_accept[57] =$/;"	v	file:
+yy_at_bol	lex.yy.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	lex.yy.c	/^static const flex_int16_t yy_base[58] =$/;"	v	file:
+yy_bs_column	lex.yy.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	lex.yy.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	lex.yy.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	lex.yy.c	/^	int yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	lex.yy.c	/^static YY_BUFFER_STATE * yy_buffer_stack = NULL; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	lex.yy.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	lex.yy.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	lex.yy.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	lex.yy.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	lex.yy.c	/^static char *yy_c_buf_p = NULL;$/;"	v	file:
+yy_ch_buf	lex.yy.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	lex.yy.c	/^static const flex_int16_t yy_chk[101] =$/;"	v	file:
+yy_create_buffer	lex.yy.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	lex.yy.c	/^static const flex_int16_t yy_def[58] =$/;"	v	file:
+yy_delete_buffer	lex.yy.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	lex.yy.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	lex.yy.c	/^static const YY_CHAR yy_ec[256] =$/;"	v	file:
+yy_fatal_error	lex.yy.c	/^static void yynoreturn yy_fatal_error (const char* msg )$/;"	f	file:
+yy_fill_buffer	lex.yy.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	lex.yy.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	lex.yy.c	/^static int yy_flex_strlen (const char * s )$/;"	f	file:
+yy_flex_strncpy	lex.yy.c	/^static void yy_flex_strncpy (char* s1, const char * s2, int n )$/;"	f	file:
+yy_flush_buffer	lex.yy.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	lex.yy.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	lex.yy.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	lex.yy.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	lex.yy.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	lex.yy.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	lex.yy.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	lex.yy.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	lex.yy.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	lex.yy.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	lex.yy.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	lex.yy.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	lex.yy.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_meta	lex.yy.c	/^static const YY_CHAR yy_meta[36] =$/;"	v	file:
+yy_n_chars	lex.yy.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	lex.yy.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	lex.yy.c	303;"	d	file:
+yy_nxt	lex.yy.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	lex.yy.c	/^static const flex_int16_t yy_nxt[101] =$/;"	v	file:
+yy_reduce_print	y.tab.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_scan_buffer	lex.yy.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	lex.yy.c	/^YY_BUFFER_STATE yy_scan_bytes  (const char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	lex.yy.c	/^YY_BUFFER_STATE yy_scan_string (const char * yystr )$/;"	f
+yy_set_bol	lex.yy.c	313;"	d	file:
+yy_set_interactive	lex.yy.c	304;"	d	file:
+yy_size_t	lex.yy.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	y.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	lex.yy.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	lex.yy.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	lex.yy.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	y.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	y.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	lex.yy.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	lex.yy.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	lex.yy.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	lex.yy.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	y.tab.c	/^union yyalloc$/;"	u	file:
+yychar	y.tab.c	/^int yychar;$/;"	v
+yycheck	y.tab.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	y.tab.c	676;"	d	file:
+yyconst	lex.yy.c	97;"	d	file:
+yydebug	y.tab.c	/^int yydebug;$/;"	v
+yydefact	y.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	y.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	y.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyensure_buffer_stack	lex.yy.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	y.tab.c	675;"	d	file:
+yyerror	y.tab.c	/^int yyerror(char * message)$/;"	f
+yyfree	lex.yy.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	lex.yy.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	lex.yy.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	lex.yy.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	lex.yy.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	lex.yy.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	lex.yy.c	/^char *yyget_text  (void)$/;"	f
+yyin	lex.yy.c	/^FILE *yyin = NULL, *yyout = NULL;$/;"	v
+yyinput	lex.yy.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	lex.yy.c	/^int yyleng;$/;"	v
+yyless	lex.yy.c	169;"	d	file:
+yyless	lex.yy.c	1753;"	d	file:
+yyless	lex.yy.c	1754;"	d	file:
+yylex	y.tab.c	/^static int yylex(void)$/;"	f	file:
+yylex_destroy	lex.yy.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	lex.yy.c	/^int yylineno = 1;$/;"	v
+yylval	y.tab.c	/^YYSTYPE yylval;$/;"	v
+yymore	lex.yy.c	473;"	d	file:
+yynerrs	y.tab.c	/^int yynerrs;$/;"	v
+yynoreturn	lex.yy.c	100;"	d	file:
+yynoreturn	lex.yy.c	102;"	d	file:
+yyout	lex.yy.c	/^FILE *yyin = NULL, *yyout = NULL;$/;"	v
+yypact	y.tab.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	y.tab.c	537;"	d	file:
+yyparse	y.tab.c	/^yyparse (void)$/;"	f
+yypgoto	y.tab.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	lex.yy.c	/^void yypop_buffer_state (void)$/;"	f
+yypush_buffer_state	lex.yy.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	y.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	y.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	lex.yy.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	lex.yy.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrline	y.tab.c	/^static const yytype_uint16 yyrline[] =$/;"	v	file:
+yyset_debug	lex.yy.c	/^void yyset_debug (int  _bdebug )$/;"	f
+yyset_in	lex.yy.c	/^void yyset_in (FILE *  _in_str )$/;"	f
+yyset_lineno	lex.yy.c	/^void yyset_lineno (int  _line_number )$/;"	f
+yyset_out	lex.yy.c	/^void yyset_out (FILE *  _out_str )$/;"	f
+yyss_alloc	y.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	y.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	y.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	y.tab.c	877;"	d	file:
+yystrlen	y.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	y.tab.c	861;"	d	file:
+yysyntax_error	y.tab.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	y.tab.c	/^static const yytype_int8 yytable[] =$/;"	v	file:
+yytable_value_is_error	y.tab.c	542;"	d	file:
+yyterminate	lex.yy.c	632;"	d	file:
+yytext	lex.yy.c	/^char *yytext;$/;"	v
+yytext_ptr	lex.yy.c	336;"	d	file:
+yytext_ptr	lex.yy.c	338;"	d	file:
+yytname	y.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	y.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	y.tab.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	y.tab.h	/^  enum yytokentype$/;"	g
+yytoknum	y.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	y.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	y.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	y.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	y.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	y.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	y.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	y.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	y.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	y.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	lex.yy.c	/^    static void yyunput (int c, char * yy_bp )$/;"	f	file:
+yyvs_alloc	y.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:

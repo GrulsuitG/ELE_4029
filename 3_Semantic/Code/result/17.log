@@ -1,0 +1,6 @@
+
+C-MINUS COMPILATION: ./tests/17_eof-in-comment.cm
+Syntax error at line 3: syntax error
+Current token: :=
+
+Syntax tree:

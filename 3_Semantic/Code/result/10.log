@@ -1,0 +1,56 @@
+
+C-MINUS COMPILATION: ./tests/10_array-args.cm
+
+Syntax tree:
+  Function Declaration: name = sum, return type = int
+    Parameter: name = a, type = int[]
+    Parameter: name = length, type = int
+    Compound Statement:
+      Variable Declaration: name = i, type = int
+      Variable Declaration: name = retval, type = int
+      Assign:
+        Variable: name = i
+        Const: 0
+      Assign:
+        Variable: name = retval
+        Const: 0
+      While Statement:
+        Op: <
+          Variable: name = i
+          Variable: name = length
+        Compound Statement:
+          Assign:
+            Variable: name = retval
+            Op: +
+              Variable: name = retval
+              Variable: name = a
+                Variable: name = i
+          Assign:
+            Variable: name = i
+            Op: +
+              Variable: name = i
+              Const: 1
+      Return Statement:
+        Variable: name = retval
+  Function Declaration: name = main, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = a, type = int[]
+        Const: 10
+      Variable Declaration: name = i, type = int
+      Assign:
+        Variable: name = i
+        Const: 0
+      While Statement:
+        Op: <
+          Variable: name = i
+          Const: 10
+        Compound Statement:
+          Assign:
+            Variable: name = a
+              Variable: name = i
+            Variable: name = i
+      Call: function name = output
+        Call: function name = sum
+          Variable: name = a
+          Const: 10

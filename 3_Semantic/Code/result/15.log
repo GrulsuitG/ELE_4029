@@ -1,0 +1,6 @@
+
+C-MINUS COMPILATION: ./tests/15_wrong-expr.cm
+Syntax error at line 2: syntax error
+Current token: :=
+
+Syntax tree:

@@ -1,0 +1,11 @@
+
+C-MINUS COMPILATION: ./tests/05_hello-cminus.cm
+
+Syntax tree:
+  Function Declaration: name = main, return type = int
+    Void Parameter
+    Compound Statement:
+      Call: function name = output
+        Const: 10
+      Return Statement:
+        Const: 0

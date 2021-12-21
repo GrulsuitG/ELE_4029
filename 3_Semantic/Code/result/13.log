@@ -1,0 +1,6 @@
+
+C-MINUS COMPILATION: ./tests/13_lot-semi.cm
+Syntax error at line 1: syntax error
+Current token: ;
+
+Syntax tree:

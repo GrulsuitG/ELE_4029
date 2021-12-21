@@ -1,0 +1,25 @@
+
+C-MINUS COMPILATION: ./tests/07_dangling-operator.cm
+
+Syntax tree:
+  Function Declaration: name = main, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = a, type = int
+      Variable Declaration: name = b, type = int
+      Assign:
+        Variable: name = a
+        Const: 0
+      Assign:
+        Variable: name = b
+        Const: -10
+      Assign:
+        Variable: name = a
+        Op: -
+          Variable: name = b
+          Const: 100
+      Assign:
+        Variable: name = b
+        Op: -
+          Variable: name = a
+          Const: -10

@@ -1,0 +1,13 @@
+
+C-MINUS COMPILATION: ./tests/09_global-var.cm
+
+Syntax tree:
+  Variable Declaration: name = hello, type = int
+  Function Declaration: name = main, return type = int
+    Void Parameter
+    Compound Statement:
+      Assign:
+        Variable: name = hello
+        Call: function name = input
+      Call: function name = output
+        Variable: name = hello

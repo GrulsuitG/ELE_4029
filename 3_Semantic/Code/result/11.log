@@ -1,0 +1,7 @@
+
+C-MINUS COMPILATION: ./tests/11_empty-func.cm
+
+Syntax tree:
+  Function Declaration: name = main, return type = void
+    Void Parameter
+    Compound Statement:

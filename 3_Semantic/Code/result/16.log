@@ -1,0 +1,6 @@
+
+C-MINUS COMPILATION: ./tests/16_emptycode.cm
+Syntax error at line 1: syntax error
+Current token: EOF
+
+Syntax tree:

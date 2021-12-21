@@ -1,0 +1,6 @@
+
+C-MINUS COMPILATION: ./tests/19_real-empty.cm
+Syntax error at line 19: syntax error
+Current token: EOF
+
+Syntax tree:

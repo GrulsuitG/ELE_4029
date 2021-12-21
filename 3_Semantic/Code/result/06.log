@@ -1,0 +1,85 @@
+
+C-MINUS COMPILATION: ./tests/06_dangling-else.cm
+
+Syntax tree:
+  Function Declaration: name = printPlus, return type = void
+    Parameter: name = x, type = int
+    Parameter: name = y, type = int
+    Compound Statement:
+      Call: function name = output
+        Op: +
+          Variable: name = x
+          Variable: name = y
+  Function Declaration: name = getPlus, return type = int
+    Parameter: name = x, type = int
+    Parameter: name = y, type = int
+    Compound Statement:
+      If Statement:
+        Op: <
+          Variable: name = x
+          Const: 0
+        Compound Statement:
+          Assign:
+            Variable: name = x
+            Op: *
+              Variable: name = x
+              Const: -1
+      If Statement:
+        Op: <
+          Variable: name = y
+          Const: 0
+        Compound Statement:
+          Assign:
+            Variable: name = y
+            Op: *
+              Variable: name = y
+              Const: -1
+      If Statement:
+        Op: >=
+          Variable: name = x
+          Const: 10
+        Compound Statement:
+          Assign:
+            Variable: name = x
+            Op: -
+              Variable: name = x
+              Const: 10
+      If-Else Statement:
+        Op: >=
+          Variable: name = y
+          Const: 100
+        Compound Statement:
+          Assign:
+            Variable: name = y
+            Op: -
+              Variable: name = y
+              Const: 100
+        Compound Statement:
+          Assign:
+            Variable: name = y
+            Op: +
+              Variable: name = y
+              Const: 100
+      Return Statement:
+        Op: +
+          Variable: name = x
+          Variable: name = y
+  Function Declaration: name = main, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = x, type = int
+      Variable Declaration: name = y, type = int
+      Assign:
+        Variable: name = x
+        Call: function name = input
+      Assign:
+        Variable: name = y
+        Call: function name = input
+      Call: function name = printPlus
+        Variable: name = x
+        Variable: name = y
+      Call: function name = output
+        Call: function name = getPlus
+          Variable: name = x
+          Variable: name = y
+      Non-value Return Statement:

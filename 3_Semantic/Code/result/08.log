@@ -1,0 +1,102 @@
+
+C-MINUS COMPILATION: ./tests/08_complicated.cm
+
+Syntax tree:
+  Function Declaration: name = fact, return type = int
+    Parameter: name = a, type = int
+    Compound Statement:
+      If Statement:
+        Op: <=
+          Variable: name = a
+          Const: 1
+        Compound Statement:
+          Return Statement:
+            Const: 1
+      Return Statement:
+        Op: *
+          Variable: name = a
+          Call: function name = fact
+            Op: -
+              Variable: name = a
+              Const: 1
+  Function Declaration: name = iterfact, return type = int
+    Parameter: name = a, type = int
+    Compound Statement:
+      Variable Declaration: name = i, type = int
+      Variable Declaration: name = result, type = int
+      Assign:
+        Variable: name = i
+        Variable: name = a
+      Assign:
+        Variable: name = result
+        Variable: name = a
+      While Statement:
+        Op: >=
+          Variable: name = a
+          Const: 0
+        Compound Statement:
+          Assign:
+            Variable: name = result
+            Op: *
+              Variable: name = result
+              Variable: name = a
+          Assign:
+            Variable: name = a
+            Op: -
+              Variable: name = a
+              Const: 1
+      Return Statement:
+        Variable: name = result
+  Function Declaration: name = main, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = true, type = int
+      Variable Declaration: name = x, type = int
+      Variable Declaration: name = iterresult, type = int
+      Variable Declaration: name = recurresult, type = int
+      Assign:
+        Variable: name = true
+        Const: 1
+      While Statement:
+        Variable: name = true
+        Compound Statement:
+          Assign:
+            Variable: name = x
+            Call: function name = input
+          Assign:
+            Variable: name = iterresult
+            Call: function name = iterfact
+              Variable: name = x
+          Assign:
+            Variable: name = recurresult
+            Call: function name = fact
+              Variable: name = x
+          Call: function name = output
+            Variable: name = iterresult
+          Call: function name = output
+            Variable: name = recurresult
+          If-Else Statement:
+            Op: !=
+              Variable: name = iterresult
+              Variable: name = recurresult
+            Compound Statement:
+              Call: function name = output
+                Const: -1
+            Compound Statement:
+              Call: function name = output
+                Const: 1
+      Assign:
+        Variable: name = x
+        Op: +
+          Op: +
+            Op: *
+              Op: -
+                Const: 10
+                Const: 5
+              Const: 100
+            Const: 50
+          Op: -
+            Const: 1000
+            Const: 50000
+      Call: function name = output
+        Variable: name = x

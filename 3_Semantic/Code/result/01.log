@@ -1,0 +1,34 @@
+
+C-MINUS COMPILATION: ./tests/01_array.cm
+
+Syntax tree:
+  Function Declaration: name = main, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = arr, type = int[]
+        Const: 10
+      Assign:
+        Variable: name = arr
+          Const: 0
+        Const: 1
+      Assign:
+        Variable: name = arr
+          Const: 1
+        Const: 2
+      Assign:
+        Variable: name = arr
+          Const: 2
+        Op: +
+          Variable: name = arr
+            Const: 0
+          Variable: name = arr
+            Const: 1
+      Call: function name = print
+        Variable: name = arr
+          Const: 0
+      Call: function name = print
+        Op: +
+          Variable: name = arr
+            Const: 2
+          Variable: name = arr
+            Const: 0

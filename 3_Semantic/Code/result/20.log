@@ -1,0 +1,6 @@
+
+C-MINUS COMPILATION: ./tests/20_cplusplus.cm
+Syntax error at line 3: syntax error
+Current token: ERROR: #
+
+Syntax tree:

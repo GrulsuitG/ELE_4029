@@ -1,0 +1,32 @@
+
+C-MINUS COMPILATION: ./tests/02_fact.cm
+
+Syntax tree:
+  Function Declaration: name = fact, return type = int
+    Parameter: name = n, type = int
+    Compound Statement:
+      If Statement:
+        Op: <=
+          Variable: name = n
+          Const: 1
+        Return Statement:
+          Const: 1
+      Return Statement:
+        Op: *
+          Variable: name = n
+          Call: function name = fact
+            Op: -
+              Variable: name = n
+              Const: 1
+  Function Declaration: name = main, return type = int
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = n, type = int
+      Assign:
+        Variable: name = n
+        Const: 10
+      Call: function name = output
+        Call: function name = fact
+          Variable: name = n
+      Return Statement:
+        Const: 0

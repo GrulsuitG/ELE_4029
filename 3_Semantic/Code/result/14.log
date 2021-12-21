@@ -1,0 +1,8 @@
+
+C-MINUS COMPILATION: ./tests/14_global-expr.cm
+Syntax error at line 3: syntax error
+Current token: ID, name= a
+
+Syntax tree:
+  Variable Declaration: name = a, type = int
+  Variable Declaration: name = b, type = int
